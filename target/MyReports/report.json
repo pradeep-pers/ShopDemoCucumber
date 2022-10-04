@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-04T14:29:09.242Z",
+        "line": 3,
+        "name": "Verify User able to login with Valid Credentials",
+        "description": "",
+        "id": "login;verify-user-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3196000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch chrome Browser",
+            "match": {
+              "location": "StepDefinations.steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5031000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User browse application URL \"http://demowebshop.tricentis.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.steps.user_browse_application_url(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login Link should display",
+            "match": {
+              "location": "StepDefinations.steps.login_link_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Login  link",
+            "match": {
+              "location": "StepDefinations.steps.user_clicks_on_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 365000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters email as \"test@kuna.com\" and password as \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@kuna.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"test@123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinations.steps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 959000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on login button",
+            "match": {
+              "location": "StepDefinations.steps.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Home page title should be \"Demo Web Shop \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Demo Web Shop \"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinations.steps.home_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinations.steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]

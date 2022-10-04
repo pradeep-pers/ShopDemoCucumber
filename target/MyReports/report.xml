@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.997">
+<testcase classname="Login" name="Verify User able to login with Valid Credentials" time="10.534">
+<system-out><![CDATA[Given user launch chrome Browser............................................passed
+Then User browse application URL "http://demowebshop.tricentis.com/"........passed
+Then Login Link should display..............................................passed
+When user clicks on Login  link.............................................passed
+Then User enters email as "test@kuna.com" and password as "test@123"........passed
+And User click on login button..............................................passed
+And Home page title should be "Demo Web Shop "..............................passed
+And Close Browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
