@@ -1,5 +1,9 @@
 package CummberShopDemo.CummberWebShopPageObjects;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,13 +39,7 @@ public class LoginPage {
 	
 	@FindBy(xpath="//body//div[@class='header-menu']//ul[@class='top-menu']//li[2]//a")
 	WebElement ClickOnComputer;
-	
-	
-	
-	
-	
-	
-	
+			
 	public void  ClickonLoginLink()
 	
 	
@@ -80,6 +78,39 @@ public class LoginPage {
 	{
 		ClickOnComputer.click();
 	}
+	
+	public void  VerifyHeaderMenu()
+	{
+		ArrayList<String>ExpectedHederMenu=new ArrayList<String>();
+		ArrayList<String>ActualHederMenu=new ArrayList<String>();
+		ActualHederMenu.add("BOOKS");
+		ActualHederMenu.add("COMPUTERS");
+		ActualHederMenu.add("ELECTRONICS");
+		ActualHederMenu.add("APPAREL & SHOES");
+		ActualHederMenu.add("DIGITAL DOWNLOADS");
+		ActualHederMenu.add("JEWELRY");
+		ActualHederMenu.add("GIFT CARADS");
+		
+		List<WebElement> Menu=driver.findElements(By.xpath("//body//ul[@class='top-menu']"));
+		for(WebElement i:Menu)
+		{
+			ExpectedHederMenu.add(i.getText());
+		}
+		System.out.println("Print the Value of Acual HeaderMenu:" +ExpectedHederMenu);
+		if(ActualHederMenu.containsAll(ExpectedHederMenu))
+		{
+			System.out.println("HederMenu Item Matches");
+		}
+		else
+		{
+			System.out.println("HederMenu Item  doesnot Matches");
+		}
+		
+	}
+	
+	
+	
+
 }
 
 
