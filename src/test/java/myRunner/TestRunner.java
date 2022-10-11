@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions
        (
     		  
-    		   features=".//Features/Login.feature",
+    		  // features=".//Features//DataDrivenTesting.feature",
+    		  features=".//Features//",
     		   glue="StepDefinations",
     		   dryRun=false,
     		   monochrome=true,

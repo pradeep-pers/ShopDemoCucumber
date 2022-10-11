@@ -1,5 +1,4 @@
 package StepDefinations;
-
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -10,10 +9,8 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
-
-
-public class steps {
+public class stepsLogin {
+	
 	WebDriver driver;
 	LoginPage lp= new LoginPage(driver);
 	@Given("user launch chrome Browser")
@@ -41,8 +38,8 @@ public class steps {
 	   
 	}
 	@Then("User enters email as {string} and password as {string}")
-	public void user_enters_email_as_and_password_as(String email, String password) {
-		lp.EnterUserName(email);
+	public void user_enters_email_as_and_password_as(String username, String password) {
+		lp.EnterUserName(username);
 		lp.EnterPassword(password);
 	  
 	}
@@ -103,7 +100,20 @@ public class steps {
 	    
 	}
 
+	
 
+	@Then("user Clicks on Logout link")
+	public void user_clicks_on_logout_link() {
+	    lp.ClickonLogoutLink();
+	}
+	@Given("User Enters the credentials")
+	public void user_enters_the_credentials() {
+	   System.out.println("User Enters the Valid Credentials");
+	}
+
+	
 
 	
 }
+
+
