@@ -112,7 +112,18 @@ public class stepsLogin {
 	}
 
 	
-
+	@Then("HeaderText Should display corrct values")
+	public void header_text_should_display_corrct_values(DataTable  dataTable) {
+		
+		List<List<String>> ActualHederText=dataTable.asLists(String.class);
+		   
+	    for(List<String> e:ActualHederText)
+	    {
+	    	System.out.println("Actaul Header Text:" +e);
+	    }
+	    lp.VerifyHeaderText();
+	    
+	}
 	
 }
 

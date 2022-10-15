@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-10-11T05:55:32.393Z",
+        "start_timestamp": "2022-10-14T07:49:26.052Z",
         "line": 17,
         "name": "Verify DataDriven Testing",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13053000000,
+              "duration": 16290000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 7131000000,
+              "duration": 8412000000,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 629000000,
+              "duration": 719000000,
               "status": "passed"
             },
             "line": 9,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 371000000,
+              "duration": 643000000,
               "status": "passed"
             },
             "line": 11,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 1264000000,
+              "duration": 895000000,
               "status": "passed"
             },
             "line": 12,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 1189000000,
+              "duration": 1006000000,
               "status": "passed"
             },
             "line": 13,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 371000000,
+              "duration": 245000000,
               "status": "passed"
             },
             "line": 14,
@@ -137,7 +137,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-10-11T05:55:56.623Z",
+        "start_timestamp": "2022-10-14T07:49:54.535Z",
         "line": 18,
         "name": "Verify DataDriven Testing",
         "description": "",
@@ -147,7 +147,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8644000000,
+              "duration": 9628000000,
               "status": "passed"
             },
             "line": 6,
@@ -159,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 7100000000,
+              "duration": 7667000000,
               "status": "passed"
             },
             "line": 7,
@@ -188,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 593000000,
+              "duration": 960000000,
               "status": "passed"
             },
             "line": 9,
@@ -211,7 +211,7 @@
           },
           {
             "result": {
-              "duration": 357000000,
+              "duration": 434000000,
               "status": "passed"
             },
             "line": 11,
@@ -233,7 +233,7 @@
           },
           {
             "result": {
-              "duration": 965000000,
+              "duration": 1294000000,
               "status": "passed"
             },
             "line": 12,
@@ -245,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 1232000000,
+              "duration": 1137000000,
               "status": "passed"
             },
             "line": 13,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 413000000,
+              "duration": 179000000,
               "status": "passed"
             },
             "line": 14,
@@ -270,7 +270,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-10-11T05:56:15.994Z",
+        "start_timestamp": "2022-10-14T07:50:15.878Z",
         "line": 19,
         "name": "Verify DataDriven Testing",
         "description": "",
@@ -280,7 +280,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9445000000,
+              "duration": 8894000000,
               "status": "passed"
             },
             "line": 6,
@@ -292,7 +292,7 @@
           },
           {
             "result": {
-              "duration": 6815000000,
+              "duration": 10099000000,
               "status": "passed"
             },
             "line": 7,
@@ -310,6 +310,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -321,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 544000000,
+              "duration": 1104000000,
               "status": "passed"
             },
             "line": 9,
@@ -345,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 348000000,
+              "duration": 556000000,
               "status": "passed"
             },
             "line": 11,
@@ -367,7 +368,7 @@
           },
           {
             "result": {
-              "duration": 2032000000,
+              "duration": 1153000000,
               "status": "passed"
             },
             "line": 12,
@@ -379,7 +380,7 @@
           },
           {
             "result": {
-              "duration": 1435000000,
+              "duration": 899000000,
               "status": "passed"
             },
             "line": 13,
@@ -391,7 +392,7 @@
           },
           {
             "result": {
-              "duration": 86000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 14,
@@ -415,15 +416,17 @@
     "line": 1,
     "elements": [
       {
+        "start_timestamp": "2022-10-14T07:50:38.794Z",
         "line": 3,
-        "name": "User is Logged In",
+        "name": "Header Text Should display correctly",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
+        "id": "headertext;header-text-should-display-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8744000000,
+              "duration": 9836000000,
               "status": "passed"
             },
             "line": 4,
@@ -435,7 +438,7 @@
           },
           {
             "result": {
-              "duration": 6196000000,
+              "duration": 7667000000,
               "status": "passed"
             },
             "line": 5,
@@ -453,7 +456,91 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "HeaderText Should display corrct values",
+            "match": {
+              "location": "StepDefinations.stepsLogin.header_text_should_display_corrct_values(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Register",
+                  "Log in",
+                  "Shopping cart(0)",
+                  "Wishlist(0)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinations.stepsLogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "HeaderText",
+    "description": "",
+    "id": "headertext",
+    "keyword": "Feature",
+    "uri": "file:Features/HeaderText.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8966000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch chrome Browser",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7083000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User browse application URL \"http://demowebshop.tricentis.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.stepsLogin.user_browse_application_url(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 6,
@@ -465,7 +552,7 @@
           },
           {
             "result": {
-              "duration": 874000000,
+              "duration": 1270000000,
               "status": "passed"
             },
             "line": 7,
@@ -478,7 +565,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-10-11T05:56:36.741Z",
+        "start_timestamp": "2022-10-14T07:50:56.597Z",
         "line": 9,
         "name": "Verify User able to login with Valid Credentials",
         "description": "",
@@ -488,7 +575,7 @@
         "steps": [
           {
             "result": {
-              "duration": 349000000,
+              "duration": 418000000,
               "status": "passed"
             },
             "line": 10,
@@ -510,7 +597,7 @@
           },
           {
             "result": {
-              "duration": 922000000,
+              "duration": 1068000000,
               "status": "passed"
             },
             "line": 11,
@@ -522,7 +609,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 118000000,
               "status": "passed"
             },
             "line": 12,
@@ -540,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 96000000,
+              "duration": 1495000000,
               "status": "passed"
             },
             "line": 13,
@@ -561,7 +648,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8368000000,
+              "duration": 9170000000,
               "status": "passed"
             },
             "line": 4,
@@ -573,7 +660,287 @@
           },
           {
             "result": {
-              "duration": 6403000000,
+              "duration": 6704000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User browse application URL \"http://demowebshop.tricentis.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.stepsLogin.user_browse_application_url(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login Link should display",
+            "match": {
+              "location": "StepDefinations.stepsLogin.login_link_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 777000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Login  link",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_clicks_on_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-14T07:51:17.052Z",
+        "line": 16,
+        "name": "Verify User able to logout",
+        "description": "",
+        "id": "login;verify-user-able-to-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 583000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters email as \"test@kuna.com\" and password as \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@kuna.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"test@123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinations.stepsLogin.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 932000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User click on login button",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Home page title should be \"Demo Web Shop \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Demo Web Shop \"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinations.stepsLogin.home_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1419000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on logout button",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_clicks_on_logout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinations.stepsLogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9270000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch chrome Browser",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7634000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User browse application URL \"http://demowebshop.tricentis.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demowebshop.tricentis.com/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinations.stepsLogin.user_browse_application_url(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login Link should display",
+            "match": {
+              "location": "StepDefinations.stepsLogin.login_link_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 952000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Login  link",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_clicks_on_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-14T07:51:36.805Z",
+        "line": 24,
+        "name": "Verify User LoginName should display correctly",
+        "description": "",
+        "id": "login;verify-user-loginname-should-display-correctly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters email as \"test@kuna.com\" and password as \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test@kuna.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"test@123\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinations.stepsLogin.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1247000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on login button",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "page should display correct username as per the login",
+            "match": {
+              "location": "StepDefinations.stepsLogin.page_should_display_correct_username_as_per_the_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDefinations.stepsLogin.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8968000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch chrome Browser",
+            "match": {
+              "location": "StepDefinations.stepsLogin.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6584000000,
               "status": "passed"
             },
             "line": 5,
@@ -603,7 +970,7 @@
           },
           {
             "result": {
-              "duration": 566000000,
+              "duration": 908000000,
               "status": "passed"
             },
             "line": 7,
@@ -616,287 +983,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-10-11T05:56:53.973Z",
-        "line": 16,
-        "name": "Verify User able to logout",
-        "description": "",
-        "id": "login;verify-user-able-to-logout",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 364000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "User enters email as \"test@kuna.com\" and password as \"test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"test@kuna.com\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"test@123\"",
-                  "offset": 53
-                }
-              ],
-              "location": "StepDefinations.stepsLogin.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 898000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User click on login button",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 12000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "Home page title should be \"Demo Web Shop \"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Demo Web Shop \"",
-                  "offset": 26
-                }
-              ],
-              "location": "StepDefinations.stepsLogin.home_page_title_should_be(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 857000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "User clicks on logout button",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_clicks_on_logout_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 89000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Close Browser",
-            "match": {
-              "location": "StepDefinations.stepsLogin.close_browser()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "User is Logged In",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 8654000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user launch chrome Browser",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_launch_chrome_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5960000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User browse application URL \"http://demowebshop.tricentis.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"http://demowebshop.tricentis.com/\"",
-                  "offset": 28
-                }
-              ],
-              "location": "StepDefinations.stepsLogin.user_browse_application_url(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Login Link should display",
-            "match": {
-              "location": "StepDefinations.stepsLogin.login_link_should_display()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 589000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks on Login  link",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_clicks_on_login_link()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-10-11T05:57:11.572Z",
-        "line": 24,
-        "name": "Verify User LoginName should display correctly",
-        "description": "",
-        "id": "login;verify-user-loginname-should-display-correctly",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 360000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "User enters email as \"test@kuna.com\" and password as \"test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"test@kuna.com\"",
-                  "offset": 21
-                },
-                {
-                  "val": "\"test@123\"",
-                  "offset": 53
-                }
-              ],
-              "location": "StepDefinations.stepsLogin.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 916000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "User click on login button",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 63000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "page should display correct username as per the login",
-            "match": {
-              "location": "StepDefinations.stepsLogin.page_should_display_correct_username_as_per_the_login()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 117000000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Close Browser",
-            "match": {
-              "location": "StepDefinations.stepsLogin.close_browser()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "User is Logged In",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 8697000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user launch chrome Browser",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_launch_chrome_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7317000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User browse application URL \"http://demowebshop.tricentis.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"http://demowebshop.tricentis.com/\"",
-                  "offset": 28
-                }
-              ],
-              "location": "StepDefinations.stepsLogin.user_browse_application_url(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Login Link should display",
-            "match": {
-              "location": "StepDefinations.stepsLogin.login_link_should_display()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 642000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks on Login  link",
-            "match": {
-              "location": "StepDefinations.stepsLogin.user_clicks_on_login_link()"
-            },
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-10-11T05:57:28.270Z",
+        "start_timestamp": "2022-10-14T07:51:56.636Z",
         "line": 31,
         "name": "Verify LoginTab Values",
         "description": "",
@@ -906,7 +993,7 @@
         "steps": [
           {
             "result": {
-              "duration": 350000000,
+              "duration": 395000000,
               "status": "passed"
             },
             "line": 33,
@@ -928,7 +1015,7 @@
           },
           {
             "result": {
-              "duration": 932000000,
+              "duration": 867000000,
               "status": "passed"
             },
             "line": 34,
@@ -940,7 +1027,7 @@
           },
           {
             "result": {
-              "duration": 69000000,
+              "duration": 77000000,
               "status": "passed"
             },
             "line": 35,
@@ -965,7 +1052,7 @@
           },
           {
             "result": {
-              "duration": 96000000,
+              "duration": 415000000,
               "status": "passed"
             },
             "line": 37,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="134.44">
-<testcase classname="DataDrivenTesting" name="Verify DataDriven Testing" time="24.17">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="169.312">
+<testcase classname="DataDrivenTesting" name="Verify DataDriven Testing" time="28.424">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
@@ -12,7 +12,7 @@ Then User clicks on logout button...........................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="DataDrivenTesting" name="Verify DataDriven Testing 2" time="19.321">
+<testcase classname="DataDrivenTesting" name="Verify DataDriven Testing 2" time="21.317">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
@@ -24,7 +24,7 @@ Then User clicks on logout button...........................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="DataDrivenTesting" name="Verify DataDriven Testing 3" time="20.717">
+<testcase classname="DataDrivenTesting" name="Verify DataDriven Testing 3" time="22.889">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
@@ -36,7 +36,14 @@ Then User clicks on logout button...........................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Verify User able to login with Valid Credentials" time="17.215">
+<testcase classname="HeaderText" name="Header Text Should display correctly" time="17.783">
+<system-out><![CDATA[Given user launch chrome Browser............................................passed
+Then User browse application URL "http://demowebshop.tricentis.com/"........passed
+Then HeaderText Should display corrct values................................passed
+And Close Browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Verify User able to login with Valid Credentials" time="20.445">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
@@ -47,7 +54,7 @@ And Home page title should be "Demo Web Shop "..............................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Verify User able to logout" time="17.586">
+<testcase classname="Login" name="Verify User able to logout" time="19.739">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
@@ -59,7 +66,7 @@ Then User clicks on logout button...........................................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Verify User LoginName should display correctly" time="16.668">
+<testcase classname="Login" name="Verify User LoginName should display correctly" time="19.799">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
@@ -70,7 +77,7 @@ Then page should display correct username as per the login..................pass
 And Close Browser...........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login" name="Verify LoginTab Values" time="18.116">
+<testcase classname="Login" name="Verify LoginTab Values" time="18.229">
 <system-out><![CDATA[Given user launch chrome Browser............................................passed
 Then User browse application URL "http://demowebshop.tricentis.com/"........passed
 Then Login Link should display..............................................passed
